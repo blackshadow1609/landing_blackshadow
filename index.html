@@ -1,11 +1,170 @@
 ﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="ru">
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Дизайн · Ретушь · Вёрстка</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="ico/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="ico/favicon.ico" />
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+    <button id="scrollTop" class="scroll-top" title="Наверх">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- ШАПКА -->
+    <header>
+        <h1>Верстка <span>сайтов</span> на HTML/CSS</h1>
+        <p><i class="fas fa-palette"></i> Дизайн · Ретушь · Вёрстка <i class="fas fa-code"></i></p>
+    </header>
+
+    <!-- ФОТО + КОНТАКТЫ -->
+    <section class="hero">
+        <img src="images/moya_avatarka.jpeg" alt="Моё фото" class="avatar" />
+        <div class="contacts">
+            <p><i class="fas fa-code"></i></p>
+            <div class="fio">
+                <span>Крестина</span>
+                <span>Алина</span>
+                <span>Владимировна</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- УСЛУГИ -->
+    <section class="services">
+        <h2><i class="fas fa-cogs"></i> Что я делаю</h2>
+
+        <div class="service-card">
+            <h3><i class="fas fa-image"></i> Баннер для соцсетей</h3>
+            <p>Создам яркий и запоминающийся баннер для вашего бизнеса или личного блога. Подходит для Instagram, VK, Telegram и других платформ. Работаю в квадратном или горизонтальном формате.</p>
+            <p><strong>Что входит:</strong> 1 оригинальный дизайн, 2 круга бесплатных правок, исходник в PNG/JPG.</p>
+            <p><strong>Срок:</strong> от 1–2 дней.</p>
+            <p class="price">от 2 500 ₽</p>
+        </div>
+
+        <div class="service-card">
+            <h3><i class="fas fa-wand-magic-sparkles"></i> Обработка и ретушь 1 фото</h3>
+            <p>Превращу ваше фото в шедевр: профессиональная цветокоррекция, удаление фона, лёгкая ретушь кожи и мелких дефектов. Идеально для портфолио, соцсетей или печати.</p>
+            <p><strong>Что входит:</strong> Кадрирование, цветокоррекция, удаление фона, лёгкая ретушь. Сложные правки (замена объектов, глубокий ретуш) обсуждаются отдельно.</p>
+            <p><strong>Срок:</strong> от 1 дня.</p>
+            <p class="price">от 700 ₽</p>
+        </div>
+
+        <div class="service-card">
+            <h3><i class="fas fa-file-lines"></i> Набор текста с фото или скана</h3>
+            <p>Быстро и аккуратно переведу в цифровой формат любой текст: рукописные заметки, сканы книг, фотографии документов, PDF-файлы.</p>
+            <p><strong>Что входит:</strong> Точный набор текста без ошибок, сохранение оригинального форматирования (абзацы, списки, выделения). Сложная вёрстка (таблицы, колонки) — по отдельной оценке.</p>
+            <p><strong>Срок:</strong> от 1 дня (зависит от объёма).</p>
+            <p class="price">от 500 ₽ / 1000 знаков</p>
+        </div>
+
+        <div class="service-card">
+            <h3><i class="fas fa-table"></i> Заполнение таблицы Excel</h3>
+            <p>Структурирую ваши данные в удобные и понятные таблицы. Помогу с каталогами, списками контактов, инвентаризацией и другими задачами.</p>
+            <p><strong>Что входит:</strong> До 100 строк, 5–7 столбцов данных. Без сложных формул и макросов (при необходимости — обсуждаем отдельно).</p>
+            <p><strong>Срок:</strong> от 1 дня.</p>
+            <p class="price">от 1 500 ₽</p>
+        </div>
+
+        <div class="service-card">
+            <h3><i class="fas fa-file-pdf"></i> Перенос из PDF/фото/сканов в Excel</h3>
+            <p>Конвертирую ваши данные из PDF-файлов, фотографий или отсканированных документов в редактируемый Excel-формат. Экономлю ваше время на рутинном наборе.</p>
+            <p><strong>Что входит:</strong> 1 страница / лист данных. Точное воспроизведение структуры, проверка на ошибки.</p>
+            <p><strong>Срок:</strong> от 1 дня.</p>
+            <p class="price">от 1 500 ₽</p>
+        </div>
+
+        <div class="service-card">
+            <h3><i class="fas fa-laptop-code"></i> Вёрстка 1 страницы по макету (HTML/CSS)</h3>
+            <p>Сверстаю для вас качественную, адаптивную и быструю страницу по вашему макету (Figma, PSD, картинка или готовое ТЗ). Чистый код, семантическая вёрстка, кроссбраузерность.</p>
+            <p><strong>Что входит:</strong> Базовая адаптивность (ПК, планшет, телефон), проверка в 2 браузерах, оптимизация скорости загрузки. JavaScript-скрипты и сложная анимация — по отдельной оценке.</p>
+            <p><strong>Срок:</strong> от 3–5 дней.</p>
+            <p class="price">от 9 000 ₽</p>
+        </div>
+
+    </section>
+
+    <!-- СТАТИСТИКА -->
+    <section class="stats">
+        <div class="stat-item">
+            <span class="stat-number" data-target="127">0</span>
+            <p>Выполненных заказов</p>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number" data-target="89">0</span>
+            <p>Довольных клиентов</p>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number" data-target="4.9">0</span>
+            <p>Средний рейтинг &#9733;</p>
+        </div>
+    </section>
+
+    <!-- ФОРМА ОБРАТНОЙ СВЯЗИ -->
+    <section class="feedback">
+        <h2><i class="fas fa-paper-plane"></i> Оставьте заявку</h2>
+        <p>Заполните форму, и я свяжусь с вами в ближайшее время</p>
+
+        <form action="https://formspree.io/f/xaqrvwgj" method="POST" class="feedback-form">
+            <input type="hidden" name="_subject" value="Новая заявка с лендинга BlackShadow" />
+            <input type="hidden" name="_next" value="https://твой-сайт/спасибо.html" />
+
+            <div class="form-group">
+                <label for="name"><i class="fas fa-user"></i> Ваше имя</label>
+                <input type="text" id="name" name="name" placeholder="Например: Александр" required />
+            </div>
+
+            <div class="form-group">
+                <label for="email"><i class="fas fa-envelope"></i> Ваш email</label>
+                <input type="email" id="email" name="email" placeholder="example@mail.ru" required />
+            </div>
+
+            <div class="form-group">
+                <label for="phone"><i class="fas fa-phone"></i> Ваш телефон</label>
+                <input type="tel" id="phone" name="phone" placeholder="+7 (999) 123-45-67" />
+            </div>
+
+            <div class="form-group">
+                <label for="service"><i class="fas fa-list"></i> Выберите услугу</label>
+                <select id="service" name="service">
+                    <option value="">— Выберите из списка —</option>
+                    <option value="banner">Баннер для соцсетей</option>
+                    <option value="retouch">Обработка и ретушь фото</option>
+                    <option value="text">Набор текста</option>
+                    <option value="excel">Заполнение таблицы Excel</option>
+                    <option value="pdf">Перенос из PDF в Excel</option>
+                    <option value="layout">Вёрстка HTML/CSS</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message"><i class="fas fa-comment"></i> Ваше сообщение</label>
+                <textarea id="message" name="message" rows="5" placeholder="Опишите вашу задачу подробнее..."></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                <i class="fas fa-paper-plane"></i> Отправить заявку
+            </button>
+        </form>
+    </section>
+
+    <!-- ПОДВАЛ -->
+    <footer>
+        <p><i class="far fa-copyright"></i> 2026 Дизайн · Ретушь · Вёрстка</p>
+        
+    </footer>
+
+    <!-- СКРИПТЫ -->
+    <script src="script.js"></script>
 
 </body>
 </html>
