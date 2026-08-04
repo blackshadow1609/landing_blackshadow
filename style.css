@@ -495,3 +495,51 @@ footer {
         padding: 15px 10px;
     }
 }
+/* ===== ТЕЛЕФОН В ШАПКЕ ===== */
+.phone-line {
+    display: inline-block;
+    background: rgba(124, 58, 237, 0.12);
+    padding: 6px 24px;
+    border-radius: 30px;
+    border: 1px solid rgba(167, 139, 250, 0.2);
+    margin-top: 8px;
+    transition: 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    .phone-line:hover {
+        background: rgba(124, 58, 237, 0.2);
+        border-color: rgba(167, 139, 250, 0.4);
+        box-shadow: 0 0 30px rgba(124, 58, 237, 0.15);
+        transform: scale(1.02);
+    }
+
+    .phone-line i {
+        color: #a78bfa;
+        margin-right: 10px;
+        font-size: 1rem;
+    }
+
+    .phone-line span {
+        color: #f0f0f0;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        font-size: 1.1rem;
+        transition: 0.3s ease;
+    }
+
+    .phone-line:hover span {
+        color: #a78bfa;
+    }
+
+/* Для мобильных */
+@media (max-width: 600px) {
+    .phone-line {
+        padding: 4px 16px;
+    }
+
+        .phone-line span {
+            font-size: 0.95rem;
+        }
+}
