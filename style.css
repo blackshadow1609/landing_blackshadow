@@ -543,3 +543,26 @@ footer {
             font-size: 0.95rem;
         }
 }
+/* Индикатор онлайн */
+.online-status {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #10b981;
+    border-radius: 50%;
+    margin-left: 8px;
+    animation: pulse 2s infinite;
+    box-shadow: 0 0 15px #10b98155;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(0.8);
+    }
+}
