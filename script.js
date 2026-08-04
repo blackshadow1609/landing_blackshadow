@@ -302,3 +302,23 @@ window.addEventListener('offline', function () {
     document.body.appendChild(status);
     setTimeout(() => status.remove(), 4000);
 });
+// FAQ АККОРДЕОН
+document.addEventListener('DOMContentLoaded', function () {
+    const faqItems = document.querySelectorAll('.faq-item');
+
+    faqItems.forEach(item => {
+        const question = item.querySelector('.faq-question');
+
+        question.addEventListener('click', function () {
+            const isActive = item.classList.contains('active');
+
+            // Закрываем все
+            faqItems.forEach(i => i.classList.remove('active'));
+
+            // Открываем текущий, если он был закрыт
+            if (!isActive) {
+                item.classList.add('active');
+            }
+        });
+    });
+});
