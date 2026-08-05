@@ -8,27 +8,32 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)](https://fontawesome.com/)
 [![Formspree](https://img.shields.io/badge/Formspree-FF6B6B?style=for-the-badge&logo=formspree&logoColor=white)](https://formspree.io/)
+[![Tawk.to](https://img.shields.io/badge/Tawk.to-3B9EFF?style=for-the-badge&logo=tawk&logoColor=white)](https://www.tawk.to/)
 
 ---
 
-## Описание проекта
+## 📋 Описание проекта
 
-Этот лендинг создан для привлечения клиентов и демонстрации услуг фрилансера. Сайт включает:
+Этот лендинг создан для привлечения клиентов и демонстрации услуг фрилансера в сфере дизайна, вёрстки и обработки данных.
+
+Сайт включает:
 
 - **6 услуг** с подробным описанием, сроками и ценами
 - **Блок с фото** и контактными данными (почта, телефон)
 - **Анимированная статистика** (выполненные заказы, довольные клиенты, средний рейтинг)
 - **Форма обратной связи** с отправкой на email через **Formspree**
 - **Анимация появления карточек** при скролле
-- **Кнопка «Наверх»** с плавным скроллом
+- **Кнопка «Наверх»** с плавным скроллом (расположена слева)
 - **Маска ввода для телефона** и сохранение данных формы в **LocalStorage**
 - **Стеклянный эффект (Glassmorphism)** и фоновое изображение
 - **Адаптивный дизайн** под все устройства (ПК, планшет, телефон)
 - **Защита от ботов** (Honeypot)
+- **Онлайн-чат Tawk.to** для быстрой связи с клиентами
+- **Блок FAQ** (аккордеон) с ответами на частые вопросы
 
 ---
 
-## Цветовая схема
+## 🎨 Цветовая схема
 
 | Цвет | Код | Назначение |
 |------|-----|------------|
@@ -40,7 +45,7 @@
 
 ---
 
-## Использованные технологии
+## 🛠 Использованные технологии
 
 | Технология | Назначение |
 |------------|------------|
@@ -49,6 +54,7 @@
 | **JavaScript (ES6+)** | Логика, анимации, отправка формы |
 | **Font Awesome 6** | Иконки и векторная графика |
 | **Formspree** | Отправка данных формы на email |
+| **Tawk.to** | Бесплатный онлайн-чат для сайта |
 | **LocalStorage** | Сохранение данных формы |
 | **Intersection Observer** | Анимации при скролле |
 
@@ -72,12 +78,29 @@ landing_blackshadow/
 
 ---
 
-## Благодарности
+## 📞 Контакты
 
-Font Awesome — за иконки
+- **Email:** [blackshadow1609@yandex.ru](mailto:blackshadow1609@yandex.ru)
+- **Телефон:** [+7-995-627-15-97](tel:+79956271597)
+- **MAX:** [Написать в MAX](https://max.ru/u/f9LHodD0cOJrVKhHqh8adAC6T3Kiej5MgQKibSS6HXGn1dTazAPcc4KgYjA)
 
-Formspree — за обработку форм
+---
 
-Google Fonts — за шрифты
+## 📝 Лицензия
 
-GitHub Pages — за хостинг
+Этот проект создан в портфолио и не предназначен для коммерческого использования без разрешения автора.
+
+---
+
+## 🙏 Благодарности
+
+- [Font Awesome](https://fontawesome.com/) — за иконки
+- [Formspree](https://formspree.io/) — за обработку форм
+- [Tawk.to](https://www.tawk.to/) — за бесплатный онлайн-чат
+- [Google Fonts](https://fonts.google.com/) — за шрифты
+- [GitHub Pages](https://pages.github.com/) — за хостинг
+- [Netlify](https://netlify.com/) — за бесплатный деплой
+
+---
+
+**💜 Дизайн · Ретушь · Вёрстка**
